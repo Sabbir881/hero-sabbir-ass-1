@@ -1,0 +1,62 @@
+/* Defult css style */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+/* header css style */
+
+.header {
+    text-align: center;
+
+
+}
+
+.header-contain {
+ 
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(./resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 200px 0;
+    border-radius: 5px;
+    
+
+
+
+
+}
+
+
+.header-contain h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+.header-contain h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    width: 632px;
+    margin: auto;
+   
+   
+    
+}
+
+/* main section start */
+
+
+
