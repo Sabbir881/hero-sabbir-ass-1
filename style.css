@@ -11,6 +11,10 @@
     margin: auto;
 }
 
+.red {
+    color: #F00;
+}
+
 /* header css style */
 
 .header {
@@ -48,7 +52,7 @@
 .header-contain h1 {
     color: #FFF;
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 70px;
     font-weight: 900;
     width: 632px;
     margin: auto;
@@ -68,8 +72,7 @@
 
 .discount h1 {
     color: #F00;
-    font-size: 60px;
-    ;
+    font-size: 88px;
     margin-bottom: 20px;
     font-family: inter;
     font-weight: 700;
@@ -79,7 +82,7 @@
 .discount h6 {
     color: #F00;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 500;
 
 }
@@ -87,7 +90,7 @@
 .discount h3 {
     color: #070211;
     font-family: Inter;
-    font-size: 33px;
+    font-size: 48px;
     font-weight: 700;
     margin-top: 5px;
 
@@ -100,9 +103,10 @@
 .discount-img img {
     margin: 50px 0;
     width: 650px;
-    height: 380px;
+    height: 390px;
 
 }
+
 
 /* end section 1 */
 
@@ -122,7 +126,7 @@
     align-items: center;
     justify-content: space-around;
     border-radius: 10px;
-    
+
 }
 
 .greting-text {
@@ -138,7 +142,7 @@
 .greting-text h1 {
     color: #FFF;
     font-family: Merriweather;
-    font-size: 65px;
+    font-size: 64px;
     font-weight: 900;
 }
 
@@ -146,10 +150,11 @@
     color: rgba(255, 255, 255, 0.80);
 
     font-family: Inter;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 400;
-   margin-top: 20px;
-   margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 30px;
 }
 
 .greting-btn {
@@ -157,12 +162,12 @@
 
     text-align: center;
     font-family: Inter;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
     background-color: transparent;
     text-decoration: none;
     margin-left: 30px;
-    
+
 
 
 }
@@ -175,5 +180,146 @@
 .greating-img img {
     width: 319.83px;
     height: 464.662px;
-   
+
+}
+
+/*   Start section 3 */
+
+.contact-section {
+    margin-top: 100px;
+}
+
+.contact-way {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    padding: 100px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    border-radius: 10px;
+
+
+}
+
+.join-btn {
+    border-radius: 8px;
+    background: #F00;
+    border: 0;
+    padding: 13px 28px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+/* start section -4 */
+
+
+.section-4 {
+    margin-top: 50px;
+    
+}
+
+.section-4-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Inter;
+    
+    /* background-color: #F00; */
+}
+
+.section-4-content .section-4-left h4 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Inter;
+
+}
+
+
+.section-4-content .section-4-left h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 10px 0;
+}
+
+.section-4-content .section-4-left p {
+
+    color: rgba(7, 2, 17, 0.60);
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 390px;
+    line-height: 30px;
+
+
+
+}
+
+.section-4-left {
+    width: 25%;
+
+
+}
+
+.section-4-middel {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-4-middel img {
+    border: 15px solid red;
+    border-radius: 50%;
+    padding: 30px;
+    height: 364px;
+    width: 364px;
+
+}
+
+.section-4-right {
+    width: 25%;
+  
+
+
+}
+
+.section-4-right h1 {
+
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.section-4-right p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0;
+    line-height: 30px;
+
+}
+.center-div{
+    margin-left:30px;
+    margin-top: 80px;
+    
+}
+
+
+.section-4-right-img img {
+    width: 140px;
+    height: 140px;
+    margin-top: 20px;
 }
