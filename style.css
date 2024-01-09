@@ -15,6 +15,10 @@
     color: #F00;
 }
 
+.balck {
+    color: #070211;
+}
+
 /* header css style */
 
 .header {
@@ -222,7 +226,7 @@
 
 .section-4 {
     margin-top: 50px;
-    
+
 }
 
 .section-4-content {
@@ -230,7 +234,7 @@
     justify-content: space-between;
     align-items: center;
     font-family: Inter;
-    
+
     /* background-color: #F00; */
 }
 
@@ -288,7 +292,7 @@
 
 .section-4-right {
     width: 25%;
-  
+
 
 
 }
@@ -311,10 +315,11 @@
     line-height: 30px;
 
 }
-.center-div{
-    margin-left:30px;
+
+.center-div {
+    margin-left: 30px;
     margin-top: 80px;
-    
+
 }
 
 
@@ -322,4 +327,120 @@
     width: 140px;
     height: 140px;
     margin-top: 20px;
+}
+
+/* Section css style start */
+
+.section-5 {
+    margin-top: 150px;
+
+}
+
+.hodiday-text {
+    text-align: center;
+}
+
+.hodiday-text h6 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hodiday-text h1 {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.hodiday-text P {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 80%;
+    margin: auto;
+}
+
+.holiday-offer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+
+
+}
+
+.holiday-offer .holiday-img-1 img {
+    width: 99%;
+}
+
+.holiday-img-2 {}
+
+.back-img {
+    background-image: url(./resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+
+}
+
+
+
+
+
+
+.portfolio-section {
+    margin-top: 100px;
+}
+
+.portfolio-text {}
+
+.portfolio-text h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.portfolio-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+
+.portfolio-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 70%;
+}
+
+.portfolio-img {
+    margin-top: 48px;
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+}
+
+.portfolio-img img {
+    width: 424px;
+    height: 450px;
+    margin-top: 20px;
+    overflow: hidden;
+   
+    
+}
+.portfolio-img img:hover{
+    background-color: aqua;
+    width: 300px;
+    
+   
 }
