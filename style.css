@@ -499,6 +499,9 @@
     justify-content: center;
 }
 
+input:focus{
+    color: black;
+}
 .email-field {
     outline: 0;
     height: 32px;
