@@ -370,15 +370,33 @@
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
+    position: relative;
+  
 
-
+}
+.holiday-img-1{
+    
 }
 
 .holiday-offer .holiday-img-1 img {
-    width: 99%;
+    width: 600px;
+    height: 658px;
+    
+
+
+
 }
 
-.holiday-img-2 {}
+.offer-persen{
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    right: 300px;
+}
+    
+
+.holiday-img-2 {
+}
 
 .back-img {
     background-image: url(./resources/Rectangle\ 2.png);
