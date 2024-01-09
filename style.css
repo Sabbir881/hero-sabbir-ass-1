@@ -426,21 +426,23 @@
 .portfolio-img {
     margin-top: 48px;
     display: flex;
-    justify-content:space-between ;
+    justify-content:center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .portfolio-img img {
-    width: 424px;
-    height: 450px;
-    margin-top: 20px;
-    overflow: hidden;
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+    transition: .8s;
+   
+   
    
     
 }
-.portfolio-img img:hover{
-    background-color: aqua;
-    width: 300px;
+.portfolio-img img:hover{   
+transform: rotate(360deg);
     
    
 }
