@@ -178,12 +178,14 @@
 
 .greating-img {
     width: 40%;
-    padding-top: 100px;
+    padding: 50px;
 }
 
 .greating-img img {
-    width: 319.83px;
-    height: 464.662px;
+    width: 320px;
+    height: 464px;
+    max-width: 100%;
+    
 
 }
 
