@@ -7,7 +7,7 @@
 
 
 .container {
-    max-width: 1320px;
+    max-width: 1280px;
     margin: auto;
 }
 
@@ -368,10 +368,16 @@
 }
 
 .holiday-offer {
+
+    background-image: url(./resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
     position: relative;
+    padding: 50px 0;
 
 
 }
@@ -379,9 +385,9 @@
 .holiday-img-1 {}
 
 .holiday-offer .holiday-img-1 img {
-    width: 600px;
-    height: 658px;
-
+     width: 600px;
+    height: 608px;  
+ 
 
 
 
@@ -395,13 +401,14 @@
 }
 
 
-.holiday-img-2 {}
+.holiday-img-2 img{
+    width: 429px;
+    height: 434px;
+    
+}
 
 .back-img {
-    background-image: url(./resources/Rectangle\ 2.png);
-    background-repeat: no-repeat;
-    background-position: bottom center;
-
+  
 }
 
 
@@ -411,6 +418,7 @@
 
 .portfolio-section {
     margin-top: 100px;
+    
 }
 
 .portfolio-text {}
@@ -443,15 +451,16 @@
 .portfolio-img {
     margin-top: 48px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .portfolio-img img {
     width: 400px;
-    height: 350px;
-    margin: 20px;
+    height: 430px;
+    margin: 20px 0px;
+    
+
     transition: .8s;
 
 
@@ -462,6 +471,7 @@
 .portfolio-img img:hover {
 
     transform: rotate(360deg);
+    
 
 }
 
@@ -522,7 +532,7 @@
 .button-field {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
-    padding: 18px 20px;
+    padding: 19px 20px;
     border: 0;
     color: #FFF;
     font-family: Inter;
@@ -553,7 +563,9 @@
 }
 
 hr {
-    color: transparent;
+    background: rgba(255, 255, 255, 0.15);
+    border: 0px;
+    height: 1px;
     
 }
 
