@@ -237,7 +237,6 @@
     align-items: center;
     font-family: Inter;
 
-    /* background-color: #F00; */
 }
 
 .section-4-content .section-4-left h4 {
@@ -331,7 +330,7 @@
     margin-top: 20px;
 }
 
-/* Section css style start */
+/* Section 5 css style start */
 
 .section-5 {
     margin-top: 150px;
@@ -407,7 +406,7 @@
 
 
 
-
+/* portfolio sectio 6 */
 
 
 .portfolio-section {
@@ -464,11 +463,10 @@
 
     transform: rotate(360deg);
 
-
 }
 
 
-
+/* section 7 start */
 
 .subscrib {
     margin-top: 100px;
@@ -575,7 +573,6 @@ hr {
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
-
 }
 
 .footer-right {
@@ -588,8 +585,6 @@ width: 25%;
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
-
-
 }
 
 .footer-last{
